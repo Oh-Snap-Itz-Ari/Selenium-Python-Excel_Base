@@ -263,7 +263,7 @@ class Funciones_Globales (): # 2. Se crea la clase Funciones_Excel y se crea la 
 
     # Función que realiza una captura de pantalla
     def Screenshot(self, name, tiempo=.2):
-        self.driver.get_screenshot_as_file("C:/Users/alexf/Desktop/Automatización Selenium Python/Ejercicios/img/scr/{}.png".format(name))
+        self.driver.get_screenshot_as_file("C:/Users/alexf/Desktop/Selenium_Excel_Base/img/{}.png".format(name))
         print("\nLa Captura ha sido guardada con el nombre -> ({}.png)".format(name))
         t = time.sleep(tiempo)
         return t
